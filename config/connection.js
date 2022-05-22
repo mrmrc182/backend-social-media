@@ -1,6 +1,6 @@
 const { connect, connection } = require('mongoose');
 
-connect(connectionString, {
+connect(connection, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   });
