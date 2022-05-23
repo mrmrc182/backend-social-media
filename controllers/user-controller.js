@@ -69,5 +69,4 @@ module.exports = {
     .catch((err) => res.status(500).json(err));
   }
 };
-//still have to do:
-//fix delete friend by ID
+
