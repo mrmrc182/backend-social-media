@@ -11,7 +11,7 @@ I did have fun building out the models and seeing them come together.  Back end 
 I wrote all of the code, but also received help from my instructor John, TA Michael, and utilized the help of several kind BCS tutors.
 
 ## Testing
-To use this application, [refer to this video]() for a quick and easy guide.  There is also a screenshot below of what the app should look like in Insomnia when running properly.
+To use this application, [refer to this video](https://drive.google.com/file/d/1H5quyf3NYbDV1H8_30HkBvP0OdA4lclJ/view) for a quick and easy guide.  There is also a screenshot below of what the app should look like in Insomnia when running properly.
 
 ![App Screenshot](getscreenshot.png)
 
