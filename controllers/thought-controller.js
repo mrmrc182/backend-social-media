@@ -1,5 +1,5 @@
 const { Thought, User } = require("../models");
-
+const mongoose = require("mongoose");
 //ask about this at office hours
 module.exports = {
   getThoughts(req, res) {
@@ -87,7 +87,7 @@ module.exports = {
   deleteReaction(req, res){
     Thought.findOneAndUpdate(
         { _id: req.params.thoughtId },
-        { $pull: { reactions: {reactionId: req.params.reactionId} } },
+        { $pull: { reactions: {_id: mongoose.Types.ObjectId(req.params.reactionId)} } },
         { new: true }
       )
         .then((thought) =>
